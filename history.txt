@@ -1,0 +1,52 @@
+    1  pwd
+    2  LS
+    3  touch
+    4  touch demo.txt
+    5  touch file
+    6  touch file{1..10}.txt
+    7  rm file{1..10}.txt
+    8  ls
+    9  touch file{1..10}.txt
+   10  ls
+   11  echo{1..100}>>hello.txt
+   12  rm file{1..10}.txt
+   13  rm hello.txt
+   14  rm file.txt
+   15  rm file .txt
+   16  rm demo.txt
+   17  pwd
+   18  ls
+   19  rmdir GIST
+   20  ls
+   21  rm demo.txt
+   22  ls
+   23  rm file{1..10}.txt
+   24  ls
+   25  rm file{50..100}.txt
+   26  ls
+   27  rm clanguage{50..100}.cpp
+   28  ls
+   29  rm *.txt
+   30  ls
+   31  rm *.py
+   32  ls
+   33  nano myfile.txt
+   34  cat myfile.txt
+   35  nano myfile.txt
+   36  cat myfile.txt
+   37  echo "Hello" >> myfile2.txt
+   38  cat myfile2.txt
+   39  echo {1..1000} >> myfile3.txt
+   40  cat myfile3.txt
+   41  mv myfile3.txt myfile2.txt
+   42  cat myfile2.txt
+   43  s
+   44  ls
+   45  cp myfile2.txt myfile.txt
+   46  cat myfile.txt
+   47  ls
+   48  cp myfile2.txt
+   49  cp myfile2
+   50  cat myfile2.txt
+   51  history
+   52  history >>history.txt
